@@ -1,0 +1,30 @@
+matris - a simple matrix class with some MATLAB-like functions
+
+base functions:
+
+include/lu.hpp   LU分解
+include/inv.hpp  求逆
+include/tr.hpp   转置
+include/det.hpp  求行列式的值
+include/rref.hpp 将矩阵化为行阶梯型
+include/rank.hpp 矩阵的秩
+include/norm.hpp 范数
+include/cond.hpp 条件数
+include/diag.hpp 取矩阵对角元素的值
+
+extend functions:
+
+include/guassian_elimination.hpp
+用高斯消元部分选主元法求解线性方程组
+include/qr.hpp
+基于豪斯霍尔德变换的QR分解
+include/givens_rotation.hpp
+基于吉文斯变换的QR分解
+include/power_method.hpp
+幂法求最大特征值及其特征向量
+include/qr_method.hpp
+QR算法求一般矩阵的所有特征值
+include/least_squares.hpp
+基于QR分解的最小二乘问题解法
+include/gram_schmidt_modified.hpp
+基于改进的格拉姆-斯密特正交化过程的QR分解
