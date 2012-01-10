@@ -2,23 +2,21 @@
   a simple matrix class with some MATLAB-like functions
   
 ** base functions
-
-   + lu.hp :: LU分解
-   + inv.hpp :: 求逆
-   + tr.hpp :: 转置
-   + det.hpp :: 求行列式的值
-   + rref.hpp :: 将矩阵化为行阶梯型
-   + rank.hpp :: 矩阵的秩
-   + norm.hpp :: 范数
-   + cond.hpp :: 条件数
-   + diag.hpp :: 取矩阵对角元素的值
+   + =lu.hpp=: LU分解
+   + =inv.hpp=: 求逆
+   + =tr.hpp=: 转置
+   + =det.hpp=: 求行列式的值
+   + =rref.hpp=: 将矩阵化为行阶梯型
+   + =rank.hpp=: 矩阵的秩
+   + =norm.hpp=: 范数
+   + =cond.hpp=: 条件数
+   + =diag.hpp=: 取矩阵对角元素的值
 
 ** extend functions
-
-   + guassian_elimination.hpp :: 用高斯消元部分选主元法求解线性方程组
-   + qr.hpp :: 基于豪斯霍尔德变换的QR分解
-   + givens_rotation.hpp :: 基于吉文斯变换的QR分解
-   + power_method.hpp :: 幂法求最大特征值及其特征向量
-   + qr_method.hpp :: QR算法求一般矩阵的所有特征值
-   + least_squares.hpp :: 基于QR分解的最小二乘问题解法
-   + gram_schmidt_modified.hpp :: 基于改进的格拉姆-斯密特正交化过程的QR分解
+   + =guassian_elimination.hpp=: 用高斯消元部分选主元法求解线性方程组
+   + =qr.hpp=: 基于豪斯霍尔德变换的QR分解
+   + =givens_rotation.hpp=: 基于吉文斯变换的QR分解
+   + =power_method.hpp=: 幂法求最大特征值及其特征向量
+   + =qr_method.hpp=: QR算法求一般矩阵的所有特征值
+   + =least_squares.hpp=: 基于QR分解的最小二乘问题解法
+   + =gram_schmidt_modified.hpp=: 基于改进的格拉姆-斯密特正交化过程的QR分解
